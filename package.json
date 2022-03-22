@@ -1,0 +1,19 @@
+{
+  "name": "api-visunote-tlse3",
+  "version": "1.0.0",
+  "description": "Simple full API for grabbing Notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toulouse"
+  ],
+  "author": "EricP",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "lodash": "^4.17.21",
+    "puppeteer": "^13.5.1"
+  }
+}
