@@ -24,14 +24,14 @@ This API export Notes, Blocs and the NotesManager Objects to work with.
 Everything is synchrone and allow not to load every pieces at the same time.
 
 ```js
-const vn = require("api-visunotes-tlse");
+const { NotesManager } = require("api-visunotes-tlse");
 const notes = require("file_name.json");
 
 myNotes = new NotesManager(["USERNAME", "PASSWORD"], "PREFIX", "SUFFIX");
 myNotes.loadNotes();
 myNotes.toJSON();
 
-yourNotes = newNotesManager();
+yourNotes = new newNotesManager();
 yourNotes.JSONtoJS(notes);
 
 yourNotes.isEqual(myNotes.getNotes());
